@@ -1,3 +1,90 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
+
+@media only screen and (min-width:320px) and (max-width:600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .chicken{
+        border: 2px solid;
+        padding: 20px;
+        margin: 20px;
+        background-color: grey;
+        width: 100%;
+    }
+    .beef{
+        border: 2px solid;
+        padding: 20px;
+        margin: 20px;
+        background-color: grey;
+        width: 100%;
+    }
+    .sushi{
+        border: 2px solid;
+        padding: 20px;
+        margin: 20px;
+        background-color: grey;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .chicken{
+        border: 2px solid;
+        padding: 20px;
+        margin: 20px;
+        background-color: grey;
+        width: 40%;
+    }
+    .beef{
+        border: 2px solid;
+        padding: 20px;
+        margin: 20px;
+        background-color: grey;
+        width: 40%;
+    }
+    .sushi{
+        border: 2px solid;
+        padding: 20px;
+        margin: 20px;
+        background-color: grey;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .chicken{
+        border: 2px solid;
+        padding: 20px;
+        margin: 20px;
+        background-color: grey;
+        width: 50%;
+    }
+    .beef{
+        border: 2px solid;
+        padding: 20px;
+        margin: 20px;
+        background-color: grey;
+        width: 50%;
+    }
+    .sushi{
+        border: 2px solid;
+        padding: 20px;
+        margin: 20px;
+        background-color: grey;
+        width: 50%;
+    }
+} 
