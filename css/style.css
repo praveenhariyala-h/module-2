@@ -2,7 +2,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media only screen and (min-width:320px) and (max-width:600px) {
+@media only screen and (min-width:320px) and (max-width:767px) {
     .container{
         display: flex;
         flex-direction: column;
@@ -10,22 +10,22 @@ body{
     }
     .chicken{
         border: 2px solid;
-        padding: 20px;
-        margin: 20px;
-        background-color: grey;
+        /* padding: 20px; */
+        margin-bottom: 20px;
+        background-color:grey;
         width: 100%;
     }
     .beef{
         border: 2px solid;
-        padding: 20px;
-        margin: 20px;
-        background-color: grey;
+        /* padding: 20px; */
+        margin-bottom: 20px;
+        background-color:grey;
         width: 100%;
     }
     .sushi{
         border: 2px solid;
-        padding: 20px;
-        margin: 20px;
+        /* padding: 20px; */
+        margin-bottom: 20px;
         background-color: grey;
         width: 100%;
     }
@@ -39,21 +39,18 @@ body{
     }
     .chicken{
         border: 2px solid;
-        padding: 20px;
         margin: 20px;
         background-color: grey;
-        width: 40%;
+        width: 44%;
     }
     .beef{
         border: 2px solid;
-        padding: 20px;
         margin: 20px;
         background-color: grey;
-        width: 40%;
+        width: 44%;
     }
     .sushi{
         border: 2px solid;
-        padding: 20px;
         margin: 20px;
         background-color: grey;
         width: 100%;
@@ -68,23 +65,57 @@ body{
     }
     .chicken{
         border: 2px solid;
-        padding: 20px;
         margin: 20px;
         background-color: grey;
         width: 50%;
     }
+   
     .beef{
         border: 2px solid;
-        padding: 20px;
         margin: 20px;
         background-color: grey;
         width: 50%;
     }
+    
     .sushi{
         border: 2px solid;
-        padding: 20px;
         margin: 20px;
         background-color: grey;
         width: 50%;
     }
+   
 } 
+
+.chicken-content{
+    padding: 20px;
+}
+.chicken-label{
+    float: right;
+    padding: 5px 30px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    background-color:coral;
+}
+.beef-content{
+    padding: 20px;
+}
+.beef-label{
+    float: right;
+    padding: 5px 30px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    background-color:brown;
+}
+.sushi-content{
+    padding: 20px;
+}
+.sushi-label{
+    float: right;
+    padding: 5px 30px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    background-color:bisque;
+}
+h2{
+    text-align: center;
+}
